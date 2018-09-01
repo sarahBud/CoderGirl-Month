@@ -2,11 +2,21 @@
 
 namespace Month
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Enter the number of the month: ");
+
+            // Save the input to a variable.
+
+            // Use the if statment to update the monthName variable based on the user's input.
+            string monthName = string.Empty;
+
+
+            Console.WriteLine($"The name of the month you entered is {monthName}");
+
+            Console.ReadLine();
         }
     }
 }
